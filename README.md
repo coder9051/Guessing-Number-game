@@ -8,17 +8,17 @@ You just require python IDE in your laptop/PC.
 The game is straightforward. The user must select a random number between 1 to 100 from a number of choices. The system will attempt to guess the number with the minimum possible guesses. That's it.
 
 ## Algorithm 
-1. Define the range of the numbers (lower and upper). It's 1-100 here.
-2. Let user choose the number from the above range (1-100).
-3. Set the guessed number initially to the middle of the range.
-4. Start the game by displaying the user a message saying “Choose the number from X to Y”. You may update the message as you wish.
-5. Initialize a variable guess_count to 0 to count the total number of chances that the computer has taken to guess the number correctly.
-6. Write an infinite loop.
-  a. Increment the chances that the user has taken to guess.
-  a. Show the guessed number to user and also give other option to get further guesses correct.
-  b. If the current guessed number is less than the users guessed number, then set lower range to guesssed number and get new guessed number.
-  c. If the current guessed number is greater than the users guessed number, then set lower range to guesssed number and get new guessed number.
-  b. If the current guessed number is equal to the users guessed number, break the loop and end the game.
+* Define the range of the numbers (lower and upper). It's 1-100 here.
+* Let user choose the number from the above range (1-100).
+* Set the guessed number initially to the middle of the range.
+* Start the game by displaying the user a message saying “Choose the number from X to Y”. You may update the message as you wish.
+* Initialize a variable guess_count to 0 to count the total number of chances that the computer has taken to guess the number correctly.
+* Write an infinite loop.
+  - Increment the chances that the computer has taken to guess.
+  - Show the guessed number to user and also give other option to get further guesses correct.
+  - If the current guessed number is less than the users guessed number, then set lower range to guesssed number and get new guessed number.
+  - If the current guessed number is greater than the users guessed number, then set lower range to guesssed number and get new guessed number.
+  - If the current guessed number is equal to the users guessed number, break the loop and end the game.
 
 ## Python code
 ```python
@@ -72,4 +72,9 @@ while True:
 ```
 
 ## Conclusion
+The main objective of this project is to learn how to implement various algorithms in Python. This project is for absolute beginner. I have also attached .py file along with this.
 
+## Contribution
+Pull requests are welcome. For major changes, please open and issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
